@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VYRO privacy policy: what data the AI photo studio processes, how it is used, and how to request deletion.">
+  <meta name="theme-color" content="#100d17">
+  <title>VYRO Privacy Policy</title>
+  <style>
+    :root{color-scheme:dark;--bg:#100d17;--panel:#1b1625;--text:#f8f5fc;--muted:#bcb3c8;--accent:#c3a3ff;--line:#342a43}
+    *{box-sizing:border-box}
+    body{margin:0;background:radial-gradient(ellipse at 85% -10%,#392651 0,transparent 44%),var(--bg);color:var(--text);font:16px/1.72 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    main{width:min(820px,100% - 32px);margin:48px auto 64px}
+    header,.card{background:color-mix(in srgb,var(--panel) 94%,transparent);border:1px solid var(--line);border-radius:24px;box-shadow:0 18px 60px #0004}
+    header{padding:clamp(25px,6vw,50px);margin-bottom:18px;background:linear-gradient(140deg,#2b2040,#1a1524 65%)}
+    .brand{display:inline-flex;align-items:center;gap:9px;color:var(--accent);font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+    .spark{display:grid;place-items:center;width:34px;height:34px;border-radius:12px;background:linear-gradient(135deg,#f0a5d7,#b99aff);color:#20172d;font-size:19px}
+    h1{font-size:clamp(2.1rem,7vw,3.7rem);line-height:1.04;letter-spacing:-.045em;margin:25px 0 12px}
+    .intro{max-width:620px;color:#d1c8dc;font-size:1.08rem}
+    .date{display:inline-block;margin-top:12px;border:1px solid #594672;border-radius:30px;padding:5px 12px;color:#e0d2ff;font-size:.83rem}
+    .card{padding:clamp(22px,5vw,42px)}
+    h2{font-size:1.3rem;line-height:1.3;margin:32px 0 9px;letter-spacing:-.02em}
+    h2:first-child{margin-top:0}
+    p,li{color:#ded8e6}
+    ul{padding-left:22px}
+    li{padding:3px 0}
+    a{color:#d0b8ff;text-underline-offset:3px;overflow-wrap:anywhere}
+    a:hover{color:#f3c5e4}
+    .callout{margin:17px 0;padding:16px 18px;border:1px solid #694f88;border-radius:16px;background:#2a2038;color:#f2eaff}
+    footer{padding:24px 10px 0;text-align:center;color:#958ba2;font-size:.83rem}
+    @media(max-width:520px){main{margin:18px auto 36px}header,.card{border-radius:19px}body{font-size:15px}}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand"><span class="spark" aria-hidden="true">✦</span>VYRO · AI Photo Studio</div>
+    <h1>Privacy Policy</h1>
+    <p class="intro">This policy explains what information VYRO processes, how it is used and shared, and how you can request deletion.</p>
+    <span class="date">Effective October 5, 2026</span>
+  </header>
+  <article class="card">
+    <h2>Information VYRO processes</h2>
+    <ul>
+      <li><strong>Account information:</strong> Firebase user ID and account status. If you sign in with Google, Firebase may also provide your name, email address, and profile photo. Guest sessions use an anonymous Firebase account.</li>
+      <li><strong>Photos and creative instructions:</strong> Photos you select or capture for editing, generated images, selected templates, and prompts or editing instructions you submit. Photos may contain information visible in the image or embedded in the file.</li>
+      <li><strong>Generation and account records:</strong> Template and generation identifiers, timestamps, image dimensions and storage paths, credit balance, plan, and generation count.</li>
+      <li><strong>Purchase verification records:</strong> Google Play product ID, order and purchase timestamps, and a one-way hash of the purchase token. The backend uses these records to verify purchases and prevent duplicate credit grants. VYRO does not receive your payment-card details.</li>
+      <li><strong>Advertising and consent information:</strong> When ads are allowed, Google Mobile Ads may process device and advertising identifiers, IP address, ad requests and interactions, and diagnostic information. Google’s User Messaging Platform (UMP) stores and reports consent status and privacy choices.</li>
+    </ul>
+    <h2>How VYRO uses information</h2>
+    <p>VYRO uses information to authenticate your account, generate and return edited images, save your creations and credit balance, verify purchases, prevent fraud and duplicate transactions, provide advertising when permitted, and respond to support requests.</p>
+    <h2>Service providers and sharing</h2>
+    <p>VYRO sends your selected photo and related template or prompt to OpenAI to produce the requested image. Images and account or generation records are processed or stored using Google Firebase and Google Cloud services, including Firebase Authentication, Firestore, Firebase Storage, and the VYRO backend. Google Play processes purchases; the VYRO backend sends purchase tokens to Google Play’s Android Publisher API for verification and consumption. Google Mobile Ads and UMP provide advertising and consent services.</p>
+    <p>These providers process data to provide their services under their own terms and privacy policies. VYRO does not sell personal information and does not receive payment-card details from Google Play.</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+      <li><a href="https://play.google.com/about/play-terms/">Google Play Terms of Service</a></li>
+      <li><a href="https://openai.com/policies/privacy-policy/">OpenAI Privacy Policy</a></li>
+    </ul>
+    <h2>Storage, retention, and deletion</h2>
+    <p>Generated images and related history are stored in VYRO’s Firebase Storage and Firestore under your Firebase account identifier. Access is restricted to the account that owns a creation and VYRO’s authorized backend. You can delete individual creations using the available deletion controls in VYRO.</p>
+    <div class="callout"><strong>Request account and data deletion:</strong> Use the <em>Contact developer</em> option on the <a href="https://play.google.com/store/apps/details?id=com.agdevelops.ainotescanner">VYRO Google Play listing</a> and ask for “VYRO account and data deletion.” Include the email address or Firebase account identifier associated with VYRO so the request can be verified. Do not send passwords, sign-in codes, or payment-card information. The developer may ask you to verify account ownership before acting.</div>
+    <p>Some limited purchase-verification, security, or transaction records may be retained where needed to prevent fraud, resolve purchase disputes, or meet legal obligations. Google Play separately retains records required to process your payment.</p>
+    <p>Signing out does not delete your account or cloud-stored creations. Deleting VYRO from your device also does not delete cloud data.</p>
+    <h2>Advertising choices</h2>
+    <p>VYRO uses Google UMP to update consent information and show a consent form only when Google determines it is required. Ads are requested only when UMP allows them. Where UMP provides a Privacy Options form, reopen it from <strong>Profile → Privacy options</strong> in VYRO.</p>
+    <h2>Security and international processing</h2>
+    <p>VYRO uses authenticated requests and account-scoped access controls for private account and image data, and transmits data over HTTPS. No online service can guarantee absolute security. Service providers may process information in countries other than your own under their applicable safeguards and policies.</p>
+    <h2>Changes and contact</h2>
+    <p>VYRO may update this policy as app features or data practices change. The effective date will be updated when a revised policy is published. For privacy questions or account-deletion requests, use the <em>Contact developer</em> option on the <a href="https://play.google.com/store/apps/details?id=com.agdevelops.ainotescanner">VYRO Google Play listing</a>. Identify VYRO and describe your request. Do not include passwords or payment-card details.</p>
+  </article>
+  <footer>VYRO Privacy Policy · Updated October 5, 2026</footer>
+</main>
+</body>
+</html>
